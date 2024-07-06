@@ -1,0 +1,15 @@
+{
+    "currentAge": 40,
+    "retirementAge": 68,
+    "currentIncome": 100000,
+    "spouseIncome": 75000,
+    "currentTotalSaving": 500000,
+    "currentAnnualSaving": 10,
+    "savingIncreaseRate": 0.25,
+    "socialSecurityOverrideAmnt": 4000,
+    "additionalIncome": 500,
+    "retirementDuration": 20,
+    "retirementAnnualIncome": 75,
+    "preRetirementROI": 8,
+    "postRetirementROI": 5
+  }
