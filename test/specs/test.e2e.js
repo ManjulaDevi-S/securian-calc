@@ -9,9 +9,6 @@ const SecurePage = require('../pageobjects/Confirmation.page')
 describe('Pre-Retirement Calculator', () => {
     it('should calculate the result', async () => {
         await PreRetirementCalc.open()
-
-        //await PreRetirementCalc.inputData('40','68','100000','75000','500000','10','0.25','4000','500','20','75','8','5')
-
         await PreRetirementCalc.preRetirementCalc_fillups(testData);
         await expect(PreRetirementCalc.confirmationText).toBeExisting()
         await expect(confirmationpage.confirmationText).toHaveTextContaining(
